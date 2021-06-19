@@ -9,73 +9,77 @@
 </head>
 <body>
   <div class="container">
+    
     <h1>Take the quiz below to find out which programming language I suggest you learn!</h1>
+    
     <form id="quiz">
-        <p>Do you prefer cats over dogs?</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="Yes" checked>
-            Yes
-          </label>
-          <label>
-            <input type="radio" name="question1" value="No">
-            No
-          </label>
-        </div> 
-
-      <p>Can you make yourself disappear?</p>
-      
-      <select class="form-control" id="question2">
-        <option></option>
-        <option value="1">I can! I've done it many times.</option>
-        <option value="2">...I can't say I can</option>
-      </select>
-      
-      <p>Are you a fan of Cheesecake?</p>
-      
-      <select class="form-control" id="question3">
-        <option></option>
-        <option value="3">Absolutely Love it!</option>
-        <option value="4">How DARE you ask me that</option>
-      </select>
-      
-      <p>Do you enjoy listening to "Still With You" when it's cold and rainy outside?</p>
-
-      <select class="form-control" id="question4">
-        <option></option>
-        <option value="5">I ALWAYS listen to SWY in All Weather Conditions</option>
-        <option value="6">I do! It's such a beautiful song.</option>
+      <p>Do you prefer cats over dogs?</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="question1" value="Yes" checked>
+          Yes
+        </label>
+          
+        <label>
+          <input type="radio" name="question1" value="No">
+          No
+        </label>
+      </div> 
+        
+      <span> 
+        <p>Can you make yourself disappear?</p>
+        <select class="form-control" id="question2">
+          <option></option>
+          <option value="1">I can! I've done it many times.</option>
+          <option value="2">...I can't say I can</option>
         </select>
+      </span>
+        
+      <span> 
+        <p>Are you a fan of Cheesecake?</p>
+        <select class="form-control" id="question3">
+          <option></option>
+          <option value="3">Absolutely Love it!</option>
+          <option value="4">How DARE you ask me that</option>
+        </select>
+      <span> 
       
-      <p>How much have you enjoyed taking this Quiz?</p>
+      <span> 
+        <p>Do you enjoy listening to "Still With You" when it's cold and rainy outside?</p>
+        <select class="form-control" id="question4">
+          <option></option>
+          <option value="5">I ALWAYS listen to SWY in All Weather Conditions</option>
+          <option value="6">I do! It's such a beautiful song.</option>
+        </select>
+      </span>
 
-      <select>
-        <option></option>
-        <option value="7">Not very much. You have very weird questions >:(</option>
-        <option value="8">It's pretty cool!</option>
-      </select>
+      <span>
+        <p>How much have you enjoyed taking this Quiz?</p>
+        <select>
+          <option></option>
+          <option value="7">Not very much. You have very weird questions >:(</option>
+          <option value="8">It's pretty cool!</option>
+        </select>
+      </span>
       
-      <button type="submit" class="btn">Submit!</button>
-    </form>
+    <br><button type="submit" class="btn">Submit!</button></br>
+    
+  </form>
   </div>
 
-  <div id="suggestion1">
+  <div class="suggestion1">
     <h3>Thank you for taking my quiz :) Based on your answers to the above questions I suggest you learn Python! </h3>
   </div>
 
-  <div id="suggestion2">
+  <div class="suggestion2">
     <h3>Thanks for taking my quiz! Based on your answers I would suggest that you take try out learning Javascript!</h3>
   </div>
 
-  <div id="suggestion3">
+  <div class="suggestion3">
     <h3>I appreciate you taking the time to try my quiz. Based on your answers I belive that both Ruby and C# would be good languages for you to look into learning.</h3>
 
-    <div id="error">
-      <h2> I'm sorry. it appears that there has been an error. Please try a different combination of answers.</h2>
-    </div>
-
-    <div id="output">
-
+    <div class="error">
+      <h3> I'm sorry. it appears that there has been an error. Please try a different combination of answers.</h3>
     </div>
 
   </div>

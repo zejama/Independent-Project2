@@ -8,15 +8,11 @@ $(document).ready(function() {
     const q4 = $("#question4").val();
     const q5 = $("#question5").val();
   
-  let result;
-
-  if (q2 = "1") {
-    $("#suggestion1").show();
+  if (q1 = Yes) {
+    $('.suggestion1').show();
   } else {
-    
+    $('.error').show();
   }
   
-  ("#output").text(result);
-
   });
 });

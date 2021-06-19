@@ -3,22 +3,26 @@ text-align: center;
 background-color: lavender;
 }
 
+span {
+  margin: 20px;
+}
+
 #quiz {
     font-size: large;
 }
 
-#suggestion1 {
+.suggestion1 {
   display: none;
 }
 
-#suggestion2 {
+.suggestion2 {
   display: none;
 }
 
-#suggestion3 {
+.suggestion3 {
   display: none;
 }
 
-#error {
+.error {
   display: none;
 }
