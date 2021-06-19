@@ -8,14 +8,14 @@ $(document).ready(function() {
     const q4 = $("#question4").val();
     const q5 = $("#question5").val();
   
-  if (q1, q2, q3, q4, q5 === "Yes", "2", "6", "8", "11") {
+    if (q1, q2, q3, q4, q5 === "Yes", "1", "4", "7", "10") {
     $('.suggestion1').show();
-  } else if (q2, q3, q4, q5 === "3", "5", "8", "12") {
+  } else if (q1, q2, q3, q4, q5 === "No", "2", "5", "8", "11") {
     $('.suggestion2').show();
-  } else if (q1, q2, q3, q4, q5 === "No", "2", "5", "9", "11") { 
+  } else if (q1, q2, q3, q4, q5 === "Neither", "3", "6", "9", "12") { 
     $('.suggestion3').show();
-  } else {
-    $('.error').show();
+    } else {
+    $('.suggestion3').show();
   }
 });
 });
