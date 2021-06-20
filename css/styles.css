@@ -11,6 +11,15 @@ span {
     font-size: large;
 }
 
+.button {
+  background-color: plum;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
 .suggestion1 {
   display: none;
 }
