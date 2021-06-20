@@ -10,7 +10,7 @@
 * _CSS_
 * _jquery_
 * _Git_
-* _Javascript?_
+* _Javascript_
 
 ## Description
 _This webpage gives the user a quiz consisting of 5 random questions. Once the user submits a certain combination of answers the program will output a suggestion for which coding language they should learn (three suggestions in total). When the user enters the wrong combination of answers the program will output an error message_
