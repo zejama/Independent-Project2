@@ -44,20 +44,5 @@ $(document).ready(function() {
     } else {
       $('.error').show();
     }
-    
-    
-    
-
-
-    // if (q1, q2, q3, q4, q5 === "No", "1", "4", "7", "10") {
-   // $('.suggestion1').show();
-  // } else if (q1, q2, q3, q4, q5 === "Yes", "2", "5", "8", "11") {
-    // $('.suggestion1').hide();
-    // $('.suggestion2').show();
-  // } else if (q1, q2, q3, q4, q5 === "Neither", "3", "6", "9", "12") { 
-    // $('.suggestion2').hide();
-    // } else {
-    // $('.suggestion3').show();
-  // }
 });
 });
