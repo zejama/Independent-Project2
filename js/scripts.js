@@ -8,20 +8,31 @@ $(document).ready(function() {
     const q4 = $("#question4").val();
     const q5 = $("#question5").val();
   
-    if (q1 === "Yes") {
+    if (q1 === "Yes" & q3 === "5" & q5 === "9") {
       $('.suggestion1').show();
-    } else if (q1, q3 === "No", "5") {
-      $('.suggestion2').show();
-    } else if (q1, q2, q3, q4, q5 === "Neither", "3", "6", "9", "12") { 
+    } else if (q1 === "Yes") {
       $('.suggestion1').hide();
-      $('.suggestion2').hide();
-      $('.suggestion3').show();
-    } else {
       $('.error').show();
-    }
+    } else if (q3 === "5") {
+      $('.suggestion1').hide();
+      $('.error').show();
+    } else if (q1 === "No" & q2 === "3" & q4 === "7") { 
+      $('.suggestion2').show();
+    } else if (q1 === "No") {
+      $('.suggestion2').hide();
+      $('.error').show();
+    } else if (q2 === "3") {
+      $('.suggestion2').hide();
+      $('.error').show();
+    } else if (q4 === "7") {
+      $('.suggestion2').hide();
+      $('.error').show();
+    } else if 
     
     
     
+
+
     // if (q1, q2, q3, q4, q5 === "No", "1", "4", "7", "10") {
    // $('.suggestion1').show();
   // } else if (q1, q2, q3, q4, q5 === "Yes", "2", "5", "8", "11") {
